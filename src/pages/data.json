@@ -1,32 +1,79 @@
 [
     {
-        "name": "pushti",
-        "description": "This is a big description of pushti product",
-        "price": "5000",
-        "weight": "10kg"
+        "id": "0",
+        "name": "PUSHTI",
+        "type": "Pillet",
+        "img": "../assets/pushti.png",
+        "pillet_size": "8 mm",
+        "pack_size": "50 kg",
+        "shelf_life": "45 days from MFD",
+        "ing_head": "Ingredients: (as per requirement and availability)",
+        "ingredients": ["Grains", "Vitamins", "Molasses", "Rice Polish Fine", "De-Oiled Rice Bran"," Oil seed extracts", "Mineral Mixture", "Grounded Salt", "Broken grains and cereals", "Many other agricultural ingredients"],
+        "is_table": true,
+        "para1": "For the better health of cattle and for the improvement in the yield and fat content of milk, good nutrition is essential.From the traditional feeding practices it was observed that animals do not get all the required nutrition for efficient milk production, body maintenance and better reproduction.Therefore, for increased production of milk in dairy cows, high amount of calories, protein, vitamins, minerals etc. should be included in the feed.",
+        "para2": "Pushti cattle feed is excellent for maintaining the health, increasing the production and maintaining the fertility of the cattle. 100% natural Pushti cattle feed does not contain any chemicals.",
+
+        "heading": "Continuous feeding of Pushti Cattle Feed will also lead to :",
+        "benefits": ["Improvement in Immunity of animal", "Prevention from metabolic diseases and deficiency syndromes", "Regularisation of reproductive cycle and animal coming to heat at regular interval."]
     },
     {
-        "name": "pushi pro",
-        "description": "This is a big description of pushti pro product",
-        "price": "7000",
-        "weight": "10kg"
+        "id": "1",
+        "name": "PUSHTI PRO",
+        "type": "Pillet",
+        "img": "../assets/pro.png",
+        "pillet_size": "6 mm",
+        "pack_size": "50 kg",
+        "is_table": true,
+        "shelf_life": "45 days from MFD",
+        "para1": "For the better health of cattle and for the improvement in the yield and fat content of milk, good nutrition is essential.From the traditional feeding practices it was observed that animals do not get all the required nutrition for efficient milk production, body maintenance and better reproduction.",
+        "para2": "Therefore, for increased production of milk in dairy cows, high amount of calories, protein, vitamins, minerals etc. should be included in the feed.High amounts of protein is included in Pushthi Pro Cattle feed (Bypass Protein + Fat) .Pushthi Pro is a balanced diet which contain complete nutrients and other essentials like Calcium, Phosphorus, Magnesium, Potassium, Iodine, etc...which are necessary for the cows.",
+        "ing_head": "Ingredients: (as per requirement and availability)",
+        "ingredients": ["Grains", "Vitamins", "Molasses", "Rice Polish Fine", "De-Oiled Rice Bran"," Oil seed extracts", "Mineral Mixture", "Grounded Salt", "Broken grains and cereals", "Many other agricultural ingredients"],
+        "heading": "Continuous feeding of Pushti Pro Cattle Feed will also lead to :",
+        "benefits": ["Improvement in Immunity of animal", "Prevention from metabolic diseases and deficiency syndromes", "Regularisation of reproductive cycle and animal coming to heat at regular interval."]
     },
     {
-        "name": "pushi plus",
-        "description": "This is a big description of pushti plus product",
-        "price": "10000",
-        "weight": "10kg"
+        "id": "2",
+        "name": "PUSHTI PLUS",
+        "type": "Pellet",
+        "img": "../assets/plus.png",
+        "pillet_size": "6 mm",
+        "pack_size": "50 kg",
+        "is_table": true,
+        "shelf_life": "45 days from MFD",
+        "para1": "For the better health of cattle and for the improvement in the yield and fat content of milk, good nutrition is essential.From the traditional feeding practices it was observed that animals do not get all the required nutrition for efficient milk production, body maintenance and better reproduction.Therefore, for increased production of milk in dairy cows, high amount of calories, protein, vitamins, minerals etc. should be included in the feed.",
+        "para2": "Pushti Plus contains enough calcium, protein and many other nutrients for High-yielding cows.Adequate amounts of minerals available in the feed leads to higher production and great immunity.",
+        "ing_head": "Ingredients: (as per requirement and availability)",
+        "ingredients": ["Grains", "Vitamins", "Molasses", "Rice Polish Fine", "De-Oiled Rice Bran"," Oil seed extracts", "Mineral Mixture", "Grounded Salt", "Broken grains and cereals", "Many other agricultural ingredients"],
+        "heading": "Continuous feeding of Pushti Plus Cattle Feed will also lead to :",
+        "benefits": ["Improvement in Immunity of animal", "Prevention from metabolic diseases and deficiency syndromes", "Regularisation of reproductive cycle and animal coming to heat at regular interval."]
     },
     {
-        "name": "pushi (goat)",
-        "description": "This is a big description of pushti (goat) product",
-        "price": "6000",
-        "weight": "10kg"
+        "id": "3",
+        "name": "PUSHTI GOAT FEED",
+        "type": "Pellet",
+        "img": "../assets/goat.png",
+        "pillet_size": "6 mm",
+        "pack_size": "20 kg",
+        "shelf_life": "45 days from MFD",
+        "para1": "Pushti quality Goat feed is excellent for maintaining the health, increasing the milk production, and meat of the goat. Quality, nutritious ingredients make up this wholesome formula (fortified with vitamins & minerals) for advanced nutrition.",
+        "is_table": false,
+        "ing_head": "Ingredients: (as per requirement and availability)",
+        "ingredients": ["Groundnut", "Coconut cake", "Grains", "Vitamins and minerals", "De-Oiled Rice Bran"," Oil seed extracts", "Grounded Salt", "Broken grains and cereals", "Many other agricultural ingredients"],
+        "heading": "Continuous feeding of Pushti goat Feed will also lead to :",
+        "benefits": ["Improvement in Immunity of animal","Prevention from metabolic diseases and deficiency syndromes", "Quality meat"]
     },
     {
-        "name": "Layer mash",
-        "description": "This is a big description of mash product",
-        "price": "7000",
-        "weight": "10kg"
+        "id": "4",
+        "name": "PUSHTI POULTRY FEED",
+        "type": "Mash (powder)",
+        "img": "../assets/poultry.png",
+        "shelf_life":"45 days from MFD",
+        "pack_size": "50 kg",
+        "is_table": false,
+        "ing_head": "Ingredients: (as per requirement and availability)",
+        "ingredients": ["Groundnut", "Coconut cake", "Grains", "Vitamins and Minerals", "De-Oiled Rice Bran"," Oil seed extracts", "Grounded Salt", "Broken grains and cereals", "Many other agricultural ingredients"],
+        "heading": "Continuous feeding of Pushti Poultry Feed will also lead to :",
+        "benefits": ["Improvement in Immunity of animal", "Prevention from metabolic diseases and deficiency syndromes", "Regularisation of reproductive cycle and animal coming to heat at regular interval."]
     }
 ]

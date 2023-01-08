@@ -22,7 +22,7 @@
 }
 
 .heading{
-    width: 65%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,6 +38,7 @@
 
 .subheading{
     margin-top: 2rem;
+    font-size: 1rem;
 }
 
 .focus{
@@ -46,10 +47,12 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+    box-shadow: 0px 30px 50px rgba(0,0,0,0.1);
     border-radius: 15px;
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 1rem;
+    transition: all 1s ease-in-out;
+    background-color: white;
 }
 
 .branding{
@@ -67,6 +70,11 @@
 
 .branding p{
     font-size: 0.5rem;
+}
+
+span{
+    color: #00A851;
+    font-size: 0.6rem;
 }
 
 .backbtn{
@@ -91,12 +99,14 @@
 
 .para{
     margin-top: 1rem;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
+    color: black;
 }
 
 @media (max-width: 1300px){
     #left{
         width: 100%;
+        margin-top: 2rem;
     }
 
     #right{
@@ -105,6 +115,18 @@
     }
 
     .flex{
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 420px){
+    .heading{
+        width: 70%;
+    }
+}
+
+@media (max-width: 350px){
+    .heading{
+        width: 100%;
     }
 }
